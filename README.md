@@ -35,8 +35,59 @@
 | 1 | Carlos | Hola, Carlos. Bienvenido a Algortimia | Exitosa |
 | 2 | María | Hola, María. Bienvenido a Algortimia | Exitosa |
 
-## Semana 3
 
+## Semana 2
+
+### Pruebas del algoritmo Bisiesto
+
+| N.º | Año ingresado | Resultado esperado | Estado |
+|---|---|---|---|
+| 1 | 2024 | Año bisiesto | Exitosa |
+| 2 | 2023 | No es bisiesto | Exitosa |
+| 3 | 2000 | Año bisiesto | Exitosa |
+| 4 | 1900 | No es bisiesto | Exitosa |
+
+### Pruebas del algoritmo Parqueadero
+
+| N.º | Tipo de vehículo | Minutos ingresados | Factura | Valor a pagar | Estado |
+|---|---|---|---|---|---|
+| 1 | Carro | 15 | N | $0 | Exitosa |
+| 2 | Carro | 60 | N | $4.000 | Exitosa |
+| 3 | Moto | 120 | N | $4.000 | Exitosa |
+| 4 | Carro | 180 | S | $6.000 | Exitosa |
+| 5 | Moto | 60 | S | $1.000 | Exitosa |
+
+### Pruebas del algoritmo Registro
+
+| N.º | Edad ingresada | Acepta términos | Resultado esperado | Estado |
+|---|---|---|---|---|
+| 1 | 18 años | S | Registro exitoso | Exitosa |
+| 2 | 14 años | S | Registro exitoso | Exitosa |
+| 3 | 13 años | S | No puedes registrarte | Exitosa |
+| 4 | 20 años | N | No puedes registrarte | Exitosa |
+
+### Pruebas del algoritmo Semáforo
+
+| N.º | Inventario ingresado | Resultado esperado | Estado |
+|---|---|---|---|
+| 1 | 15 | Verde | Exitosa |
+| 2 | 10 | Amarillo | Exitosa |
+| 3 | 5 | Amarillo | Exitosa |
+| 4 | 0 | Agotado | Exitosa |
+| 5 | -3 | Error | Exitosa |
+
+### Pruebas del algoritmo ValidarEdad
+
+| N.º | Edad ingresada | Resultado esperado | Estado |
+|---|---|---|---|
+| 1 | 18 años | Edad válida | Exitosa |
+| 2 | 0 años | Edad válida | Exitosa |
+| 3 | 120 años | Edad válida | Exitosa |
+| 4 | 121 años | Edad inválida | Exitosa |
+| 5 | -5 años | Edad inválida | Exitosa |
+
+
+## Semana 3
 
 ### Traza de piramide
 
